@@ -3,7 +3,6 @@ from turtle_robot import TurtleRobot
 from control import ControlInterface
 
 
-
 def RunSimulation():
   turtle_window = Tk()
   turtle_window_canvas = Canvas(turtle_window, width=500, height=500)
