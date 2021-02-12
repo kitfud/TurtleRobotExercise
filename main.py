@@ -1,7 +1,7 @@
 import turtle
 from tkinter import*
 
-class Robot():
+class TurtleRobot():
   def __init__(self,name,color):
     self.name = name
     self.sprite = turtle.Pen()
@@ -23,7 +23,7 @@ class Robot():
     print (self.name + ' is going left')
     self.sprite.left(20)
 
-bob = Robot("bob","red")
+bob = TurtleRobot("bob","red")
 
 
 
