@@ -17,7 +17,7 @@ def RunSimulation():
   
   while True:
     bob_controls.update_movement()
-    control_window.update_idletasks()
+    #control_window.update_idletasks()
     control_window.update()
 
 if __name__ == "__main__":
