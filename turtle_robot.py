@@ -1,9 +1,10 @@
 import turtle
+from tkinter import*
 
 class TurtleRobot():
-  def __init__(self,name,color):
+  def __init__(self,name,color,canvas):
     self.name = name
-    self.sprite = turtle.Pen()
+    self.sprite = turtle.RawTurtle(canvas)
     self.sprite.color(color)
 
   def Forward(self): #function        
